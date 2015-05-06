@@ -3,6 +3,8 @@
   width: 122px;
   float:left;
   margin-left: 238px;
+  border-right: 10px solid #afdcf8;
+  padding-right: 36px;
 
 }
 
@@ -29,22 +31,31 @@
   margin-left:15px;
 }
 
-.mobile_icon, .monitor_icon {
-  background-color: #6cbfee;
+.mobile_icon, .monitor_icon, .fake_icon {
   padding-bottom: 50px;
   display: block;
   padding-left: 0px;
   padding-right: 0px;
   margin-left: 371px;
   width: 10px;
-  margin-top: 57px;
   position: absolute;
+}
+
+.monitor_icon {
+  margin-top: 315px;
+}
+
+.fake_icon {
+  margin-top: 535px;
 }
 
 .articles{
   float: right;
 }
 
+.article1:hover, .article2:hover, .article3:hover {
+  background-color: #6cbfee;
+}
 .articles p {
   font-family: Lato, Calibri, Arial, sans-serif;
   font-weight: 300;
@@ -58,12 +69,21 @@
   color: white;
   margin-right: 157px;
   margin-bottom: 15px;
-
+  transition: background-color 1;
   padding-top: 45px;
   padding-left: 38px;
   padding-bottom: 58px;
   width: 781px;
 
+}
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+
+	border-right:10px solid #3594cb;
 }
 
 header {
