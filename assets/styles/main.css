@@ -1,37 +1,43 @@
 
 .side {
-  width: 20px;
-  margin: 0 auto;
-  float:left;
+  width: 122px;
 
+  float:left;
+  margin-left: 238px
+  
 }
 
 .date {
-  font-size: 8px;
-  font-color: gray;
+  font-size: 10px;
+  color: gray;
 }
 
 .time {
-  font-size: 30px;
-  font-color: #6cbfee;
+  font-size: 48px;
+  color: #6cbfee;
+  font-family: "Comic Sans";
 }
 
 .icons {
-  background-color: 6cbfee;
+  background-color: #6cbfee;
   padding-bottom: 50px;
   display: block;
   padding-left: 0px;
   padding-right: 0px;
-  position: absolute;
+
   margin: 0 auto;
+  width: 10px;
 }
 
-.articles{
+.article1, .article2{
   width: 781px;
-  magrin: 0 auto;
   float: right;
   background-color: #3594cb;
   color: white;
+  margin-right: 197px;
+  padding-top: 45px;
+  padding-left: 38px;
+
 }
 
 hr {
