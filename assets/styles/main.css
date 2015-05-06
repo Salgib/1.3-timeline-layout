@@ -1,4 +1,39 @@
+
+.side {
+  width: 20px;
+  margin: 0 auto;
+  float:left;
+
+}
+
+.date {
+  font-size: 8px;
+  font-color: gray;
+}
+
+.time {
+  font-size: 30px;
+  font-color: #6cbfee;
+}
+
 .icons {
   background-color: 6cbfee;
   padding-bottom: 50px;
+  display: block;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.articles{
+  width: 781px;
+  magrin: 0 auto;
+  float: right;
+  background-color: #3594cb;
+  color: white;
+}
+
+hr {
+  width: 706px;
 }
