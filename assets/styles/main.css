@@ -1,45 +1,82 @@
 
 .side {
   width: 122px;
-
   float:left;
-  margin-left: 238px
-  
+  margin-left: 238px;
+
 }
 
-.date {
-  font-size: 10px;
+.date1, .date2, .date3 {
+  font-size: 14px;
   color: gray;
+  font-family: Lato, Calibri, Arial, sans-serif;
+  margin-left: 75px;
+
 }
 
-.time {
+.date2 {
+  margin-top: 155px;
+}
+
+.date3 {
+  margin-top: 60px;
+}
+.time1, .time2, .time3 {
   font-size: 48px;
   color: #6cbfee;
-  font-family: "Comic Sans";
+  font-family: Lato, Calibri, Arial, sans-serif;
+  padding-bottom: 100px;
+  margin-left:15px;
 }
 
-.icons {
+.mobile_icon, .monitor_icon {
   background-color: #6cbfee;
   padding-bottom: 50px;
   display: block;
   padding-left: 0px;
   padding-right: 0px;
-
-  margin: 0 auto;
+  margin-left: 371px;
   width: 10px;
+  margin-top: 57px;
+  position: absolute;
 }
 
-.article1, .article2{
-  width: 781px;
+.articles{
   float: right;
+}
+
+.articles p {
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.article1, .article2, .article3 {
+  margin-bottom: 10px;
   background-color: #3594cb;
+  border-radius: 5px;
   color: white;
-  margin-right: 197px;
+  margin-right: 157px;
+  margin-bottom: 15px;
+
   padding-top: 45px;
   padding-left: 38px;
+  padding-bottom: 58px;
+  width: 781px;
 
+}
+
+header {
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 hr {
-  width: 706px;
+  width: 740px;
+  margin-right: 50px;
+}
+
+.content {
+  margin-top: 56px;
 }
