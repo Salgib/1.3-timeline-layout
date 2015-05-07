@@ -16,6 +16,10 @@
 
 }
 
+.date1 {
+  margin-top: 10px;
+}
+
 .date2 {
   margin-top: 155px;
 }
@@ -82,6 +86,15 @@ header {
   font-family: Lato, Calibri, Arial, sans-serif;
   font-weight: bold;
   font-size: 28px;
+}
+
+.arrow-left {
+	width: 10px;
+	height: 10px;
+	color: #3594cb;
+  transform: rotate(45deg)
+  position: absolute;
+  margin-right: 700px;
 }
 
 hr {
